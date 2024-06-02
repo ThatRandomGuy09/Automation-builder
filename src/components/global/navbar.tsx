@@ -52,8 +52,7 @@ const Navbar = async (props: Props) => {
             {true ? 'Dashboard' : 'Get Started'}
           </span>
         </Link>
-        {/* {true ? <UserButton afterSignOutUrl="/" /> : null} */}
-        <MenuIcon className="md:hidden" />
+         <MenuIcon className="md:hidden" />
       </aside>
     </header>
   );
