@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <ModeToggle />
-     <Navbar />
+      <Navbar />
+      <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center  antialiased"></section>
     </main>
   );
 }
