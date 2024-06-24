@@ -42,7 +42,7 @@ const InfoBar = (props: Props) => {
           </span>
         )} */}
       </span>
-      <span className="flex items-center rounded-full bg-muted px-4">
+      <span className="flex items-center rounded-full bg-muted px-4 ">
         <Search />
         <Input
           placeholder="Quick Search"
